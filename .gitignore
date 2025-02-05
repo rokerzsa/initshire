@@ -1,0 +1,97 @@
+# Operating System files
+#########################
+.DS_Store
+Thumbs.db
+
+# Python
+########
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+pip-wheel-metadata/
+*.log
+
+# Virtualenv
+############
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# Node.js (if applicable)
+##########################
+node_modules/
+
+# IDEs and editors
+##################
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+*.swo
+
+# JetBrains
+.idea/
+
+# Python bytecode
+#################
+*.pyc
+*.pyo
+
+# Jupyter Notebooks
+###################
+.ipynb_checkpoints/
+
+# Test Coverage
+################
+.coverage
+*.coveragerc
+nosetests.xml
+coverage.xml
+*.log
+
+# Deployment files
+##################
+*.bak
+*.swp
+
+# Logs and databases
+####################
+*.log
+*.sql
+*.sqlite
+
+# CI/CD related
+################
+.gitlab-ci.yml
+.circleci/
+.github/
+
+# macOS specific
+################
+*.DS_Store
+
+# Windows specific
+##################
+Thumbs.db
+Desktop.ini
+
+# Docker related
+################
+docker-compose.override.yml
+.docker/
+*.dockerfile
+*.image
